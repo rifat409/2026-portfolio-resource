@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* sheard style */
+.text-center{
+    text-align: center;
+}
 .text-primary{
     color: #FD6E0A;
 }
 .dark-2{
     color: #474747;
+}
+.section-description{
+    color: #757575;
+}
+.secedary-bg{
+    background-color: #FFF8F3;
 }
 .btn-praimary{ 
     color: #FFFFFF;
@@ -67,4 +76,44 @@ nav ul a{
 .banner-description{
     font-weight: 400;
     font-size: 17px;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+}
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top:130px ;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+
+}
+.item-description{
+    font-weight: 600;
+}
+/* skils style */
+.skils-containar{
+    display: flex;
+    gap: 25px;
+    
+}
+.skil{
+    padding: 25px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
 }
